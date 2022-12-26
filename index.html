@@ -5,10 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Sam's shoes</title>
+        <link rel="stylesheet" href="/css/main.css" />
     </head>
     <body>
+        <div class="container">
         <div class="header">
-            <div class="center_box">
+            <div class="inner">
                 <a href="#x" class="logo">
                     <img src="images/logo.png" alt="" />
                 </a>
@@ -16,7 +18,7 @@
                     <li><a href="#x">Women</a></li>
                     <li><a href="#x">men</a></li>
                     <li><a href="#x">Kids</a></li>
-                    <li><a href="#x"></a>Accessories</li>
+                    <li><a href="#x">Accessories</a></li>
                     <li><a href="#x">Sale</a></li>
                 </ul>
                 <ul class="top_menu">
@@ -36,7 +38,7 @@
 
         <!-- //head -->
 
-        <div class="visual">
+        <div class="hero">
             <div class="slide">
                 <div class="text_box">
                     <h2>
@@ -47,27 +49,31 @@
                         Introducing product name. <br />
                         Our lightest shoe, ever.
                     </p>
-                    <button>SHOP</button>
+                    <button class="btn btn_dark">SHOP</button>
                 </div>
             </div>
         </div>
 
-        <ul class="banners">
-            <li class="left">
-                <h2>Women</h2>
-                <a href="#x"
-                    ><span>Shop now</span> <img src="images/arrow.png" alt=""
-                /></a>
-            </li>
-            <li class="right">
-                <h2>Men</h2>
-                <a href="#x"
-                    ><span>Shop now</span> <img src="images/arrow.png" alt=""
-                /></a>
-            </li>
-        </ul>
+        <div class="banner inner">
+            <ul>
+                <li class="left">
+                    <h2>Women</h2>
+                    <a href="#x"
+                        ><span>Shop now</span>
+                        <img src="images/arrow.png" alt=""
+                    /></a>
+                </li>
+                <li class="right">
+                    <h2>Men</h2>
+                    <a href="#x"
+                        ><span>Shop now</span>
+                        <img src="images/arrow.png" alt=""
+                    /></a>
+                </li>
+            </ul>
+        </div>
 
-        <div class="product">
+        <div class="product inner">
             <h2>New releases</h2>
             <ul class="product_list">
                 <li>
@@ -100,7 +106,7 @@
                 </li>
             </ul>
         </div>
-        <div class="product">
+        <div class="product inner">
             <h2>New releases</h2>
             <ul class="product_list">
                 <li>
@@ -132,6 +138,14 @@
                     </div>
                 </li>
             </ul>
+        </div>
+
+        <div class="mailing">
+            <div class="text_box">
+                <h2>Never miss a drop.</h2>
+                <p>Receive updates about new products and promotions.</p>
+                <button class="btn">JOIN MAILING LIST</button>
+            </div>
         </div>
 
         <div class="footer">
@@ -202,5 +216,6 @@
                 </div>
             </div>
         </div>
+        
     </body>
 </html>
