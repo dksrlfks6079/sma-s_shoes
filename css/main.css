@@ -34,6 +34,10 @@ a {
     background-color: #111;
     color: #fff;
 }
+
+.btn_full {
+    width: 100%;
+}
 body {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: "Poppins", sans-serif;
@@ -91,7 +95,7 @@ body {
     width: 1280px;
     height: 728px;
     margin: 0 auto;
-    background-image: url(/images/main_visual.png);
+    background-image: url(../images/main_visual.png);
     background-repeat: no-repeat;
     background-position: center right;
 }
